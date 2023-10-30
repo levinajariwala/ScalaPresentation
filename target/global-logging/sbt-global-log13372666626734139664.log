@@ -1,0 +1,80 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 21.0.1)
+[debug]       Load.loadUnit: plugins took 129.6209ms
+[debug]       Load.loadUnit: defsScala took 0.4818ms
+[debug] [Loading] Scanning directory C:\Users\levin\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\levin\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 28.6394 ms
+[debug]           Load.resolveProject(global-plugins) took 61.7539ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\levin\.sbt\1.0\plugins, plugins: List(<none>))) took 123.9133ms
+[debug] [Loading] Done in C:\Users\levin\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 160.8522ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4739ms
+[debug]     Load.loadUnit(file:/C:/Users/levin/.sbt/1.0/plugins/, ...) took 306.3223ms
+[debug]   Load.apply: load took 545.6362ms
+[debug]   Load.apply: resolveProjects took 5.6293ms
+[debug]   Load.apply: finalTransforms took 68.4121ms
+[debug]   Load.apply: config.delegates took 11.4628ms
+[debug]   Load.apply: Def.make(settings)... took 557.581ms
+[debug]   Load.apply: structureIndex took 109.3709ms
+[debug]   Load.apply: mkStreams took 1.7359ms
+[info] loading global plugins from C:\Users\levin\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3856.0813ms
+[debug]           Load.loadUnit: plugins took 25.8659ms
+[debug]           Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\levin\IdeaProjects\ScalaPresentation\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\levin\IdeaProjects\ScalaPresentation\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.7476 ms
+[debug]               Load.resolveProject(scalapresentation-build) took 1.4752ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalapresentation-build, base: C:\Users\levin\IdeaProjects\ScalaPresentation\project, plugins: List(<none>))) took 3.7398ms
+[debug] [Loading] Done in C:\Users\levin\IdeaProjects\ScalaPresentation\project, returning: (scalapresentation-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5.5053ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0187ms
+[debug]         Load.loadUnit(file:/C:/Users/levin/IdeaProjects/ScalaPresentation/project/, ...) took 32.206ms
+[debug]       Load.apply: load took 33.8992ms
+[debug]       Load.apply: resolveProjects took 0.091ms
+[debug]       Load.apply: finalTransforms took 13.0478ms
+[debug]       Load.apply: config.delegates took 0.4068ms
+[debug]       Load.apply: Def.make(settings)... took 84.3186ms
+[debug]       Load.apply: structureIndex took 34.9151ms
+[debug]       Load.apply: mkStreams took 0.0059ms
+[info] loading project definition from C:\Users\levin\IdeaProjects\ScalaPresentation\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
